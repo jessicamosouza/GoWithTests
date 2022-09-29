@@ -14,6 +14,7 @@ func TestPerimeter(t *testing.T) {
 	}
 }
 
+// interfaces: define functions that can be used by different types
 type Shape interface {
 	Area() float64
 }
